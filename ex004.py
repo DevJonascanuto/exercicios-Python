@@ -1,0 +1,12 @@
+a = input('Digite algo: ')
+
+print(f'{"Descrição":<25} | Resultado')
+print('-' * 40)
+print(f'{"O tipo primitivo desse valor é":<25} | {type(a)}')
+print(f'{"Só tem espaços?":<25} | {a.isspace()}')
+print(f'{"É um número?":<25} | {a.isnumeric()}')
+print(f'{"É alfabético?":<25} | {a.isalpha()}')
+print(f'{"É alfanumérico?":<25} | {a.isalnum()}')
+print(f'{"Está em maiúscula?":<25} | {a.isupper()}')
+print(f'{"Está em minúscula?":<25} | {a.islower()}')
+print(f'{"Está capitalizada?":<25} | {a.istitle()}')
