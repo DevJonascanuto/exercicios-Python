@@ -4,9 +4,6 @@ o preço a pagar sabendo que o carro custa r$ 60.00 POR DIA e r$ 0.15 CENTAVOS P
 # VALOR DA DIARIA R$ 60,00
 
 
-
-
-
 km = float (input('quantos Kms foram rodados ?'))
 diaria = int (input('Quantos dias de aluguel do veiculo ?'))
 cobrar = km * 0.15 + diaria * 60
